@@ -6,16 +6,29 @@ body {
     color: white;
 }
 
+.container{
+    background-color: rgb(134, 162, 215);
+    border-radius: 10px;
+}
+
+h1{
+    color: black;
+}
+
 table {
-    width: 100%;
+    border: solid;
     height: 100%;
     text-align: center;
+    width: 100%;
+
 }
 
 .ticket-actual {
     background-color: #282828;
 }
-
+tr{
+    border: solid;
+}
 .ticket-actual-numero {
     font-size: 80px;
 }
